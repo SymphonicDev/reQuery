@@ -14,8 +14,8 @@ var query = reQ.query({
     parse: true //passing false will return a buffer.
 }); //returns a promise
 
-query.then(function(state) {
-    console.log(state);
+query.then(function(result) {
+    console.log(result);
 }, function(error) {
     console.log(error);
 });
