@@ -7,11 +7,11 @@
     "game",
     "query"
   ],
-  "homepage": "http://github.com/xbenjii/reQ",
+  "homepage": "https://github.com/xbenjii/reQuery",
   "author": "Benjamin Fortune <benjamin.fortune1@gmail.com> (http://xbenjii.co.uk/)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xbenjii/reQ.git"
+    "url": "git://github.com/xbenjii/reQuery.git"
   },
   "main": "./lib",
   "dependencies": {
