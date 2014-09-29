@@ -26,9 +26,6 @@ You can create your own protocol by extending the core from the protocols folder
 
 ```js
 module.exports = require('../core').extend({
-    init: function() {
-        this._super(); //this is required.
-    },
     run: function() {
         return this.udpSend('your query buffer here');
     },
