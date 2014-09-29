@@ -1,5 +1,5 @@
 {
-  "name": "reQ",
+  "name": "requery",
   "version": "0.0.1",
   "description": "Game server query",
   "keywords": [
@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git://github.com/xbenjii/reQ.git"
   },
+  "main": "./lib",
   "dependencies": {
     "extend.class": "*",
     "q": "^1.0.1"

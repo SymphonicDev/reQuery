@@ -1,9 +1,9 @@
-# reQ gameserver query
+# reQuery Game/Master Server Query
 
 ## Instructions
 Require the library and create a new query using the following
 
-        var reQ = require('./refactor/lib');
+        var reQ = require('./lib'); // or require('requery');
 
         var query = reQ.query({
             type: 'iw4master',
