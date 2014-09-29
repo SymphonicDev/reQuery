@@ -1,0 +1,23 @@
+{
+  "name": "reQ",
+  "version": "0.0.1",
+  "description": "Game server query",
+  "keywords": [
+    "rekt",
+    "game",
+    "query"
+  ],
+  "homepage": "http://github.com/xbenjii/reQ",
+  "author": "Benjamin Fortune <benjamin.fortune1@gmail.com> (http://xbenjii.co.uk/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xbenjii/reQ.git"
+  },
+  "dependencies": {
+    "extend.class": "*",
+    "q": "^1.0.1"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
