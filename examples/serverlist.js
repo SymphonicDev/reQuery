@@ -13,10 +13,10 @@ setInterval(update, 60000); //Update the list every 60 seconds
 
 function update() {
     reQ.query({
-        type: 'iw4master',
+        type: 'iw4/master',
         host: '176.57.141.201',
         port: 20810,
-        timeout: 1500,
+        timeout: 3000,
         parse: true
     }).then(function(servers) {
         serverCache = [];
@@ -25,7 +25,7 @@ function update() {
                 type: 'iw4',
                 host: server.ip,
                 port: server.port,
-                timeout: 1500,
+                timeout: 3000,
                 parse: true
             }).then(function(result) {
                 serverCache.push(result);
