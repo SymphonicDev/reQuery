@@ -7,7 +7,7 @@ Require the library and create a new query using the following
 var reQ = require('./lib'); // or require('requery');
 
 var query = reQ.query({
-    type: 'iw4master', //available types are 'iw4master', 'iw4' for now.
+    type: 'iw4/master', //available types are 'iw4', 'iw4/master', 'iw4/players' for now.
     host: '176.57.141.201',
     port: 20810,
     timeout: 3000,
